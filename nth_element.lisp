@@ -1,8 +1,0 @@
-(princ "Enter list with parenthesis : ")
-(setq l1 (read))
-(princ "The list is : ")
-(write l1)
-(terpri)
-(princ "Enter the index of element to be found : ")
-(setq n (read)) 
-(write (nth n l1))
